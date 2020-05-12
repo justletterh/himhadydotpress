@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="icon" href="https://files.letterh.icu/letters/h.png">
+<title>the real him hady's site</title>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    const button = new Crate({
+      server: '702592687622062091',
+      channel: '702608716804915301',
+      shard: 'https://e.widgetbot.io',
+      location: ['bottom', 'left'],
+      color: 'black',
+      defer: true,
+      notifications: true,
+      indicator: false,
+      css: 'background-color: #000000'
+    })
+    button.notify('click the icon in the corner to see our discord server!')
+    setInterval(() => {
+  button.options.notifications = false
+    }, 2750)
+    setInterval(() => {
+      button.options.color = "#000000".replace(/0/g, () => {
+            return (~~(Math.random() * 16)).toString(16)
+          })
+    }, 945)
+</script>
+</head>
+<body rightmargin="18%">
+<div class="right"></div>
+<div class="left"></div>
+<center>
+<h1>him hady's site</h1>
+<h3>info:</h3>
+<p><a href="info\main.html">here</a></p>
+</center>
+</body>
+<footer>
+<br>
+<br>
+<br>
+<div class="line"></div>
+<br>
+<div class="foot">
+<input type="text" value="h ឵឵#8008" id="myInput">
+made by h (©2020)
+<br>
+<a href="mailto:h@letterh.icu">h@letterh.icu</a><div class="tooltip"><button onclick="myFunction()" onmouseout="outFunc()" id="discord"><span class="tooltiptext" id="myTooltip">Discord</span><a href="https://www.discordapp.com/login/" target="_blank">@h ឵឵#8008</a></button></div>(666317117154525185)
+<script>
+function myFunction() {
+var copyText = document.getElementById("myInput");
+copyText.select();
+copyText.setSelectionRange(0, 99999);
+document.execCommand("copy");
+
+var tooltip = document.getElementById("myTooltip");
+tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+var tooltip = document.getElementById("myTooltip");
+tooltip.innerHTML = "Discord";
+}
+</script>
+<br>
+<a href="https://justh.life">return to h</a>
+<br>
+<a href="https://dev.letterh.icu/index.html">return to hdev home</a>
+<div>
+<iframe src="https://discordapp.com/widget?id=702592687622062091&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+</footer>
+</html>

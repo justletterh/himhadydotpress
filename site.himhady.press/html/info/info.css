@@ -1,0 +1,125 @@
+body, #discord {
+  background-color: #440061;
+}
+
+h1, h2, h3, h4, h5, h6, p, body {
+  color: #24F2FF;
+}
+
+h1, h2, h3, h4, h5, h6, p, table {
+  margin-right: 5%;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+.right, .left {
+	z-index: 20;
+	position: fixed;
+	bottom: 0;
+	background: #FF8B00;
+	width: 13%;
+	height: 100%;
+}
+
+.right {
+	right: 0;
+}
+
+.left {
+	left: 0;
+}
+
+footer {
+	text-align: center;
+	margin-right: 3%;
+	font-size: small;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 140px;
+	background-color: #555;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -75px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+#myInput {
+	opacity: 0;
+	position: fixed;
+}
+
+#discord {
+	border: none;
+}
+
+.foot {
+	margin-right: 3%;
+}
+
+.line {
+	position: relative;
+	right: 1.25%;
+	background-color: #3F9DA4;
+	height: 3px;
+	width: 106.75%;
+}
+
+a:link, a:visited {
+  color: #08ADB9;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #07777F;
+	text-decoration: none;
+}
+
+table.tableizer-table {
+  font-size: 12px;
+  border: 2px solid #FFF; 
+  font-family: Arial, Helvetica, sans-serif;
+} 
+.tableizer-table td {
+  padding: 4px;
+  margin: 3px;
+  border: 1px solid #FFF;
+}
+.tableizer-table th {
+  background-color: #FF8B00; 
+  font-size: 14px;
+  color: #000;
+  border: 1px solid #FFF;
+  font-weight: bolder;
+}
